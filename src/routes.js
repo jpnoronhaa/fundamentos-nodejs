@@ -1,6 +1,8 @@
+import { Database } from './database.js';
+import { buildRoutePath } from './utils/build-route-path.js';
+
 export { randomUUID } from 'node:crypto';
-export { Database } from './database.js';
-export { buildRoutePath } from './utils/build-route-path.js';
+
 
 const database = new Database();
 

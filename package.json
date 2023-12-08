@@ -1,7 +1,14 @@
 {
   "name": "fundamentos-nodejs",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "author": "Joao Pedro Noronha",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.3.3"
+  }
 }
